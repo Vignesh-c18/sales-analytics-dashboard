@@ -1,0 +1,2 @@
+-- Sales Analytics SQL Queries
+-- Queries will be added here.
