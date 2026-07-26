@@ -1,67 +1,64 @@
-# Sales Analytics Dashboard
+## Dashboard
 
-## 📌 Project Overview
+Below is the Power BI dashboard created for this project.
 
-This project is an End-to-End Sales Analytics Dashboard built using Python, MySQL, SQL, and Power BI. It demonstrates the complete data analytics workflow from data cleaning to dashboard creation.
-
----
-
-## 🚀 Features
-
-- Data Cleaning using Python (Pandas)
-- SQL Analysis using MySQL
-- ETL Process
-- Interactive Power BI Dashboard
-- KPI Cards
-- Sales Trend Analysis
-- Category-wise Sales
-- Region-wise Profit
-- Top Customers
-- Top Products
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
-## 🛠️ Tech Stack
+## Project Workflow
 
-- Python
-- Pandas
-- MySQL
-- SQL
-- Power BI
+1. Load the Superstore dataset.
+2. Clean and preprocess the data using Python (Pandas).
+3. Import the cleaned dataset into MySQL.
+4. Perform SQL analysis to generate business insights.
+5. Build an interactive dashboard in Power BI.
+6. Visualize KPIs such as Sales, Profit, Category-wise Sales, Top Customers, Top Products, and Regional Performance.
 
 ---
 
-## 📂 Project Structure
+## SQL Analysis
+
+The project includes SQL queries for:
+
+- Sales by Category
+- Top Customers by Sales
+- Profit by Region
+- Top Profitable Products
+- Top Customers by Profit
+- Sales by Ship Mode
+- Sales by State
+- Monthly Sales Trend
+- Category-wise Profit
+- Average Discount by Category
+- Top Cities by Sales
+- Top Products by Sales
+
+---
+
+## Repository Structure
 
 ```
-sales-analytics-dashboard
+sales-analytics-dashboard/
 │
-├── dataset
+├── dataset/
 │   ├── Sample - Superstore.csv
 │   └── cleaned_superstore.csv
 │
-├── etl
+├── etl/
 │   └── clean_data.py
+│
+├── sql/
+│   └── sales_queries.sql
+│
+├── screenshots/
+│   └── dashboard.png
+│
+├── Sales_Analytics_Dashboard.pbix
+├── requirements.txt
+└── README.md
 ```
 
----
-
-## 📊 Dashboard
-
-Power BI dashboard includes:
-
-- Total Sales
-- Total Profit
-- Average Discount
-- Sales by Category
-- Sales Trend
-- Top States by Sales
-- Top Customers
-- Profit by Region
-- Top Products
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Vignesh**
