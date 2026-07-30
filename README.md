@@ -1,4 +1,4 @@
-# 📊 Sales Analytics Dashboard
+# Sales Analytics Dashboard
 
 ## Overview
 
@@ -23,7 +23,7 @@ Using **Python**, **Pandas**, **MySQL**, and **Power BI**, the dashboard enables
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
@@ -109,7 +109,7 @@ sales-analytics-dashboard/
 
 ---
 
-# 🗃 SQL Analysis
+# SQL Analysis
 
 The project includes SQL queries for analyzing business performance, including:
 
@@ -128,19 +128,6 @@ The project includes SQL queries for analyzing business performance, including:
 
 ---
 
-# Business Insights
-
-The dashboard helps answer business questions such as:
-
-- Which product categories generate the highest revenue?
-- Which regions contribute the most profit?
-- Who are the highest-value customers?
-- Which products perform best in terms of sales?
-- How do monthly sales trends change over time?
-- Which shipping modes are most frequently used?
-- Which states generate the highest revenue?
-
----
 
 # Future Enhancements
 
